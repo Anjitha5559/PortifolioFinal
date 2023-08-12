@@ -6,7 +6,7 @@
 		},
 		2002: {
 			year: 2002,
-			data: 'went to Delhi, and lived a life I will never forget'
+			data: 'Went to Delhi, and lived a life I will never forget'
 		},
 		2003: {
 			year: 2003,
@@ -38,7 +38,7 @@
 		},
 		2011: {
 			year: 2011,
-			data: ' Last of My streak of First price in Geetha Parayanam '
+			data: 'Last of My streak of First price in Geetha Parayanam '
 		},
 		2012: {
 			year: 2012,
@@ -46,7 +46,7 @@
 		},
 		2013: {
 			year: 2013,
-			data: ' my intrest in Computers started '
+			data: ' My intrest in Computers started '
 		},
 		2014: {
 			year: 2014,
@@ -58,19 +58,19 @@
 		},
 		2016: {
 			year: 2016,
-			data: "Got 10CGPA in X. Turns out 10th doens'nt decdide my life "
+			data: "Got 10CGPA in X. Turns out 10th doens'nt decide my life "
 		},
 		2017: {
 			year: 2017,
-			data: 'became the school captain. I think I was a good one'
+			data: 'Became the school captain. I think I was a good one'
 		},
 		2019: {
 			year: 2019,
-			data: 'turns out 12th wasnt the life decider either, and took part in Aswamedham Show'
+			data: 'Turns out 12th wasnt the life decider either, and took part in Aswamedham Show'
 		},
 		2020: {
 			year: 2020,
-			data: ' Biggest decisitons in my life were taken, from Brilliant Pala, And Got into GEC Thrissur. new life, new ambitions'
+			data: 'Biggest decisitons in my life were taken, from Brilliant Pala, And Got into GEC Thrissur. new life, new ambitions'
 		},
 		2021: {
 			year: 2021,

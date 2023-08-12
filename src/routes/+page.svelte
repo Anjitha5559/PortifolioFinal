@@ -26,6 +26,6 @@
 		justify-content: center;
 		width: 100%;
 		height: 100%;
-		background-color: #110028;
+		background-color: rgb(22, 22, 22);
 	}
 </style>
