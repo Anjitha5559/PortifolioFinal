@@ -45,6 +45,7 @@
 	}
 
 	.waviy {
+		font-weight: bolder;
 		position: relative;
 		-webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
 		font-size: clamp(2rem, 4vw, 3rem);

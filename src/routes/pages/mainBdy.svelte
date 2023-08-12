@@ -29,6 +29,11 @@
 </div>
 
 <style>
+	.typing{
+		width: auto;
+		height: auto;
+		font-size: clamp(40px, 5vw, 90px);
+	}
 	#mainBdy {
 		width: 100vw;
 		height: 90vh;
