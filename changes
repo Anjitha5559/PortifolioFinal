@@ -1,0 +1,9 @@
+# commented out unused css 
+# changed import of code in css to remove all warnings currently.
+
+
+# Buttons all have same width and height in contact me, also made dynamic
+
+#189 -> 1-4 lines in contact me
+
+# #255fff => your primary color
