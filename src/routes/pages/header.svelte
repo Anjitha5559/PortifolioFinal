@@ -54,13 +54,15 @@
 		font-size: clamp(2rem, 4vw, 3rem);
 	}
 	.waviy span {
-		font-family: 'Alfa Slab One', cursive;
+		font-weight: bolder;
+		font-family: "Poppins", sans-serif;
 		position: relative;
 		display: inline-block;
-		color: blue;
+		color: rgb(0, 4, 255);
 		text-transform: uppercase;
 		animation: waviy 1s infinite;
 		animation-delay: calc(0.1s * var(--i));
+
 	}
 	@keyframes waviy {
 		0%,
@@ -77,9 +79,8 @@
 		justify-content: center;
 		align-items: center;
 		text-align: center;
-		font-weight: bold;
+		font-weight: bolder;
 		width: 100vw;
-		font-family: 'Times New Roman', Times, serif;
 	}
 	#menu {
 		display: flex;

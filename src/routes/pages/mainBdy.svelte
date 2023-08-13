@@ -67,15 +67,16 @@
 	#nameintro {
 		color: rgb(255, 255, 255);
 		text-align: center;
-		font-family: 'Montserrat Medium';
 		font-size: clamp(30px, 3vw, 60px);
-		font-weight: bold;
+		font-weight: bolder;
 		animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
 	}
 	span {
+		font-family: 'Courier New', Courier, monospace;
 		display: inline-block;
 		opacity: 0;
 		filter: blur(4px);
+		font-weight: bolder;
 	}
 
 	@keyframes typing {
