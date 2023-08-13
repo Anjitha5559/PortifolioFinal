@@ -2,7 +2,7 @@
 	const year = {
 		2001: {
 			year: 2001,
-			data: 'Born to Jayamani C and Sobhana D on 9 july 2001'
+			data: 'Born to Jayamani C and SobhanaB on 9 July 2001'
 		},
 		2002: {
 			year: 2002,
@@ -141,7 +141,7 @@
 	/* The actual timeline (the vertical ruler) */
 	.timeline {
 		position: relative;
-		max-width: 1200px;
+		max-width: 1300px;
 		margin: 0 auto;
 	}
 
@@ -235,5 +235,13 @@
 		font-weight: bolder;
 		color: rgb(199, 39, 231);
 		text-align: center;
+	}
+	@media screen and (max-width: 1300px){
+		.container {
+		padding: 10px 30px;
+		position: relative;
+		background-color: inherit;
+		width: 60%;
+	}
 	}
 </style>

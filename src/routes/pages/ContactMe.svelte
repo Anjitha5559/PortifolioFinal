@@ -53,10 +53,9 @@
 
 <style>
 	#Contact_box {
-		width: clamp(400px, 80vw, 800px);
+		width: clamp(-300deg00px, 80vw, 800px);
 		background-color: black;
 		margin: 3vw;
-		padding: 1vw;
 		border-radius: 10px;
 		display: flex;
 		flex-direction: column;

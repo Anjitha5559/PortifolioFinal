@@ -85,6 +85,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		
 	}
 	.txt {
 		background-color: rgb(17, 17, 17);
@@ -97,7 +98,7 @@
 		text-align: justify;
 		word-wrap: break-word;
 		margin: 20;
-		width: clamp(300px, 50vw, 1000px);
+		width: clamp(350px, 50vw, 1000px);
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
@@ -135,5 +136,10 @@
 		font-size: 22px;
 		padding-left: 10px;
 		padding-right: 10px;
+	}
+	@media screen and (max-width: 1000px){
+		p {
+		font-size: 15px;
+	}
 	}
 </style>

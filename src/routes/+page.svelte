@@ -24,8 +24,8 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		width: 100%;
+		width: 100vw;
 		height: 100%;
-		background-color: rgb(22, 22, 22);
+		background-color: rgb(0, 0, 0);
 	}
 </style>

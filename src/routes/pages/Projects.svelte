@@ -145,6 +145,7 @@
 		align-items: center;
 		margin: 5vh;
 		border-radius: 10px;
+		
 	}
 
 	.rotate span {
@@ -161,12 +162,13 @@
 	}
 
 	#MyProjects {
-		padding: 20px;
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
+		margin-top: 30px;
+		
 	}
 	.EachProjects {
 		opacity: 0.9;
@@ -176,7 +178,7 @@
 		align-items: center;
 		background-color: rgb(22, 22, 22);
 		color: white;
-		margin: 3vh;
+		margin-bottom: 3vh;
 		width: clamp(350px, 25vw, 600px);
 		-webkit-box-shadow: 0 10px 10px -6px #0011ff;
 		-moz-box-shadow: 0 10px 10px -6px #0011ff;
@@ -185,6 +187,7 @@
 		border-radius: 10px;
 		transition: 1s ease;
 		height: 50vh;
+		margin-left: 20px;
 	}
 	.EachProjects:hover {
 		-webkit-transform: scale(1.1);
@@ -225,4 +228,11 @@
 		scale: 1.1;
 		transition: 0.5s ease;
 	}
+	@media screen and (max-width: 800px){
+		.EachProjects {
+
+		margin-left: 0px;
+	}
+	}
+
 </style>

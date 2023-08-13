@@ -21,7 +21,6 @@
 		</div>
 	</div>
 	<div id="menu" class="headitem">
-		<div class="menubaby"><a href="#header">Home</a></div>
 		<div class="menubaby"><a href="#SecondBody">About Me</a></div>
 		<div class="menubaby"><a href="#Contact_box">Projects</a></div>
 		<div class="menubaby"><a href="#ContactHeading">Contact Me</a></div>
@@ -30,6 +29,7 @@
 
 <style>
 	#header {
+		font-weight: bolder;
 		width: 100vw;
 		height: 10vh;
 		background-color: rgb(22, 22, 22);
@@ -39,9 +39,12 @@
 		align-items: center;
 		padding: 10px;
 		box-shadow: 0px 0px 10px 0px white;
+		/* flex-wrap: wrap; */
+		
 	}
 	.headitem {
 		width: 25%;
+		/* width: 100%; */
 	}
 
 	.waviy {
@@ -69,17 +72,14 @@
 			transform: translateY(-20px);
 		}
 	}
-	/* #anjimg {
-		
-		border-radius: 50px;
-		box-shadow: 0px 0px 10px 0px white;
-	} */
+
 	#heading {
 		justify-content: center;
 		align-items: center;
 		text-align: center;
 		font-weight: bold;
-		width: 50vw;
+		width: 100vw;
+		font-family: 'Times New Roman', Times, serif;
 	}
 	#menu {
 		display: flex;
@@ -89,11 +89,20 @@
 		color: white;
 	}
 	.menubaby {
-		padding: clamp(3px, 5px, 10px);
-		font-size: clamp(5px, 12px, 15px);
+		padding: clamp(2px, 5px, 10px);
+		font-size: clamp(4px, 10px, 15px);
+
 	}
 	a {
 		text-decoration: none;
 		color: #ffffff;
+	}
+	@media screen and (max-width: 1000px){
+		#header{
+			flex-wrap: wrap;
+		}
+		.headitem {
+		width: 50%;
+	}
 	}
 </style>
